@@ -1,0 +1,13 @@
+{
+  "name": "print-service",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot index.ts"
+  },
+  "dependencies": {
+    "ipp": "^2.0.1",
+    "pdfkit": "^0.14.0",
+    "bonjour": "^3.5.0"
+  }
+}
