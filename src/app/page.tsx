@@ -934,7 +934,7 @@ function Dashboard() {
   const totalPrints = printers.reduce((sum, p) => sum + p.totalPrints, 0)
   
   const last7Days = useMemo(() => {
-    const days = []
+    const days: string[] = []
     for (let i = 6; i >= 0; i--) {
       const date = new Date()
       date.setDate(date.getDate() - i)
