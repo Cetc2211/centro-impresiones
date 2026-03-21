@@ -71,3 +71,8 @@ skills/
 # Caddyfile (internal)
 Caddyfile
 mini-services/
+
+# Vercel internal
+.accesslog
+.config
+.stats
